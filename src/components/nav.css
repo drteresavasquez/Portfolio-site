@@ -1,0 +1,13 @@
+body {
+    background-color:black;
+}
+
+.nav-link {
+    color: #47CC87;
+    transition: letter-spacing .3s;
+    font-size: 1.2em;
+}
+
+.nav-link:hover {
+    letter-spacing: .5em;
+}
