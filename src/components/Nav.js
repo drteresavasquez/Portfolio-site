@@ -1,6 +1,6 @@
 import React, {Component} from 'react';
 import Logo from '../images/small-logo.png';
-import { BrowserRouter, Route, Link, NavLink } from 'react-router-dom';
+import { BrowserRouter, Route, NavLink } from 'react-router-dom';
 import Home from './Home.js';
 import About from './About.js';
 import Projects from './Projects.js';
