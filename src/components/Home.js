@@ -1,11 +1,15 @@
 import React, {Component} from 'react';
+import './home.css'
+import LGLogo from '../images/final-logo.png';
 
 
 
-let HomePage = () => {
+let HomePage = (props) => {
     return(
-        <div>
-            <p>Home</p>
+        <div className="home-body container">
+            <div className="d-flex justify-content-center">
+                <img src={props.biglogo} className="img-fluid " alt="Responsive image" />
+            </div>
         </div>
     )
 }
@@ -15,7 +19,7 @@ let HomePage = () => {
 class Home extends Component {
     render() {
         return(
-            <HomePage />
+            <HomePage biglogo={LGLogo} />
         )
     }
 }
