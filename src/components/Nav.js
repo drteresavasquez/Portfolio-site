@@ -2,7 +2,7 @@ import React, {Component} from 'react';
 import Logo from '../images/small-logo.png';
 import { BrowserRouter, Route, NavLink } from 'react-router-dom';
 import Home from './Home.js';
-import About from './About.js';
+import Blog from './Blogs.js';
 import Projects from './Projects.js';
 import Contact from './Contact.js';
 
@@ -19,7 +19,7 @@ let NavBar = (props) => {
                     <NavLink className="nav-link " to="/">Home</NavLink>
                 </li>
                 <li className="nav-item">
-                    <NavLink className="nav-link" to="/about">About</NavLink>
+                    <NavLink className="nav-link" to="/blog">Blogs</NavLink>
                 </li>
                 <li className="nav-item">
                     <NavLink className="nav-link" to="/projects">Projects</NavLink>
@@ -31,7 +31,7 @@ let NavBar = (props) => {
 
 
             <Route exact path='/' component={Home} />
-            <Route path='/about' component={About} />
+            <Route path='/blog' component={Blog} />
             <Route path='/projects' component={Projects} />
             <Route path='/contact' component={Contact} />
 
@@ -44,7 +44,7 @@ class Nav extends Component {
     render() {
         return(
             <BrowserRouter>
-                <NavBar Logo={Logo}/>
+                    <NavBar Logo={Logo}/>
             </BrowserRouter>
         )
     }
