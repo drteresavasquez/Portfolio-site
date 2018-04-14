@@ -2,22 +2,22 @@ import React, {Component} from 'react';
 
 
 
-let AboutPage = () => {
+let BlogPage = () => {
     return(
         <div>
-            <p>About</p>
+            <p>Blogs</p>
         </div>
     )
 }
 
 
 
-class About extends Component {
+class Blog extends Component {
     render() {
         return(
-            <AboutPage />
+            <BlogPage />
         )
     }
 }
 
-export default About;
+export default Blog;
