@@ -5,14 +5,15 @@ import Home from './Home.js';
 import Blog from './Blogs.js';
 import Projects from './Projects.js';
 import Contact from './Contact.js';
+import './nav.css';
 
 
 
 let NavBar = (props) => {
     return (
-        <nav className="container mt-5">
-            <ul className="nav justify-content-between text-center">
-                <li className="nav-item">
+        <nav className="main-nav container mt-5">
+            <ul className="nav justify-content-between text-center p-3 border-bottom border-right border-left border-light">
+                <li className="nav-item align-self-start">
                     <img src={props.Logo} width="100" height="70"  alt="" />
                 </li>
                 <li className="nav-item">
