@@ -6,3 +6,50 @@ p {
     font-size: 1.3em;
     font-family: 'Courier New', Courier, monospace;
 }
+
+@keyframes greeting {
+    from {opacity: 0;}
+    to {opacity: 100;}
+}
+
+.greet-1 {
+    opacity: 0;
+    animation-name: greeting;
+    animation-duration: 3s; 
+    animation-fill-mode: forwards;
+}
+
+.greet-2{
+    opacity: 0;
+    animation-name: greeting;
+    animation-duration: 6s; 
+    animation-fill-mode: forwards;
+}
+
+.greet-3 {
+    opacity: 0;
+    animation-name: greeting;
+    animation-duration: 4s; 
+    animation-fill-mode: forwards;
+}
+
+.greet-4 {
+    opacity: 0;
+    animation-name: greeting;
+    animation-duration: 2s; 
+    animation-fill-mode: forwards;
+}
+ .greet-5{
+    opacity: 0;
+    animation-name: greeting;
+    animation-duration: 5s; 
+    animation-fill-mode: forwards;
+ }
+
+ .main-logo{
+    opacity: 0;
+    animation-name: greeting;
+    animation-delay: 2s;
+    animation-duration:5s; 
+    animation-fill-mode: forwards;
+ }

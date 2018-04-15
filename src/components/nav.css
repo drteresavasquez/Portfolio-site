@@ -1,0 +1,14 @@
+
+@keyframes greeting {
+    from {opacity: 0;}
+    to {opacity: 100;}
+}
+
+
+.nav-item{
+    opacity: 0;
+    animation-name: greeting;
+    animation-delay: 4s;
+    animation-duration: 2s; 
+    animation-fill-mode: forwards;
+}
