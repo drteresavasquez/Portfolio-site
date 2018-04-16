@@ -16,7 +16,7 @@ let HomePage = (props) => {
                 <p className="greet-5 pl-4">of</p>
             </div>
             <div className="d-flex justify-content-center">
-                <img src={props.biglogo} className="img-fluid main-logo" alt="" />
+                <img src={props.biglogo} className="img-fluid main-logo"  alt="" />
             </div>
         </div>
     )
