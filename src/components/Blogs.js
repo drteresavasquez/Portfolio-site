@@ -1,4 +1,5 @@
 import React, {Component} from 'react';
+import base from './base.js';
 
 
 
@@ -13,6 +14,7 @@ let BlogPage = () => {
 
 
 class Blog extends Component {
+    
     render() {
         return(
             <BlogPage />
