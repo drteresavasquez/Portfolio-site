@@ -1,0 +1,9 @@
+.repo-btn {
+   background-color: white; 
+   color: black;
+}
+
+.repo-btn:hover{
+    background-color: #19CA8E;
+    color:white;
+}
