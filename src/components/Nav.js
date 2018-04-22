@@ -1,5 +1,5 @@
 import React, {Component} from 'react';
-import Logo from '../images/small-logo.png';
+import Logo from '../images/ARS LOGO.svg';
 import { BrowserRouter, Route, NavLink } from 'react-router-dom';
 import Home from './Home.js';
 import Blog from './Blogs.js';
@@ -11,9 +11,9 @@ import './nav.css';
 
 let NavBar = (props) => {
     return (
-        <nav className="main-nav container mt-5">
-            <ul className="nav justify-content-between text-center p-3 border-bottom border-right border-left border-light">
-                <li className="nav-item align-self-start">
+        <nav className="main-nav container mb-5 mt-5 pb-3">
+            <ul className="nav justify-content-between text-center p-3 border-bottom align-items-center pb-5">
+                <li className="nav-item ">
                     <img src={props.Logo} width="100" height="70"  alt="" />
                 </li>
                 <li className="nav-item">

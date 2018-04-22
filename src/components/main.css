@@ -1,13 +1,15 @@
 body {
-    background-color:black;
+    background-color:#232323;
 }
 
 .nav-link {
-    color: #47CC87;
+    color: white;
     transition: letter-spacing .3s;
     font-size: 1.2em;
 }
 
 .nav-link:hover {
+    
+    color: #19CA8E;
     letter-spacing: .5em;
 }

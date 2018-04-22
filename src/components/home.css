@@ -12,6 +12,7 @@ p {
     to {opacity: 100;}
 }
 
+
 .greet-1 {
     opacity: 0;
     animation-name: greeting;

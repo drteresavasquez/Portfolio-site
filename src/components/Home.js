@@ -1,6 +1,6 @@
 import React, {Component} from 'react';
 import './home.css'
-import LGLogo from '../images/final-logo.png';
+import LGLogo from '../images/ARS LOGO.svg';
 
 
 
@@ -15,8 +15,9 @@ let HomePage = (props) => {
                 <p className="greet-4 pl-5">Portfolio</p>
                 <p className="greet-5 pl-4">of</p>
             </div>
-            <div className="d-flex justify-content-center">
-                <img src={props.biglogo} className="img-fluid main-logo"  alt="" />
+            <div className="d-flex flex-column justify-content-center align-items-center pl-5 ml-5">
+                <img src={props.biglogo} className="img-fluid main-logo" width="225" height='225' alt="" />
+                <h1 className="main-logo display-2 font-weight-light">Arthur Rankin</h1>
             </div>
         </div>
     )
